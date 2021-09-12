@@ -697,13 +697,13 @@ alias staticMap = AliasSeq!(F!(Args[0]),F!(Args[1]),);
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
 T(0.,0.)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
 T(1.,1.)
 
 // expansion at 
@@ -715,13 +715,13 @@ alias staticMap = AliasSeq!(F!(Args[0]),F!(Args[1]),F!(Args[2]),);
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
 T(0.,0.,0.)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
 T(1.,1.,1.)
 
 // expansion at 
@@ -733,13 +733,13 @@ alias staticMap = AliasSeq!(F!(Args[0]),F!(Args[1]),F!(Args[2]),F!(Args[3]),);
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
 T(0.,0.,0.,0.)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
 T(1.,1.,1.,1.)
 
 // expansion at 
@@ -763,13 +763,13 @@ alias staticMap = AliasSeq!(F!(Args[0]),);
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
 T(0.)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
 T(1.)
 
 // expansion at 
@@ -781,13 +781,13 @@ alias staticMap = AliasSeq!(F!(Args[0]),F!(Args[1]),F!(Args[2]),);
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
 T(0.,0.,0.)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
 T(1.,1.,1.)
 
 // expansion at 
@@ -799,13 +799,13 @@ alias staticMap = AliasSeq!(F!(Args[0]),F!(Args[1]),F!(Args[2]),F!(Args[3]),);
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(86,16)
 T(0.,0.,0.,0.)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(92,16)
 T(1.,1.,1.,1.)
 
 // expansion at 
@@ -814,7 +814,7 @@ T(1.,1.,1.,1.)
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(175,12)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(175,12)
 sqrt(v.x*v.x+v.y*v.y)
 
 // expansion at /usr/include/dlang/dmd/std/functional.d(216,13)
@@ -838,49 +838,49 @@ a == b
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(145,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(145,16)
 T(x/rhs,y/rhs)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(192,12)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(192,12)
 lhs.x*rhs.x+lhs.y*rhs.y
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(145,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(145,16)
 T(x*rhs,y*rhs)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(192,12)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(192,12)
 lhs.x*rhs.x+lhs.y*rhs.y+lhs.z*rhs.z
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(175,12)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(175,12)
 sqrt(v.a*v.a+v.xy*v.xy+v.yz*v.yz+v.zx*v.zx)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(145,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(145,16)
 T(a/rhs,xy/rhs,yz/rhs,zx/rhs)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(151,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(151,16)
 T(lhs*xy,lhs*yz,lhs*zx)
 
 // expansion at 
 .object.size_t h = 0;foreach (i, T; typeof(p.tupleof))    static if(is(T* : const(.object.Object)*))         h = h * 33 + typeid(const(.object.Object)).getHash(cast(const void*)&p.tupleof[i]);    else         h = h * 33 + typeid(T).getHash(cast(const void*)&p.tupleof[i]);return h;
 
-// expansion at ../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(98,16)
+// expansion at ../../../../.dub/packages/raylib-d-3.1.0/raylib-d/source/raymathext.d(98,16)
 T(-xy,-yz,-zx)
 
 // expansion at /usr/include/dlang/dmd/std/meta.d(794,9)
