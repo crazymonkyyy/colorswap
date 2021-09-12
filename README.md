@@ -1,4 +1,4 @@
-A quick a dirty parser/graber of base 16 color schemes, with a hotswapping. 
+A quick and dirty parser/graber of base 16 color schemes, with hotswapping. 
 Also a raylib copy-paste folder.
 ![screenshot000.png](screenshot000.png)
 ![screenshot001.png](screenshot001.png)
